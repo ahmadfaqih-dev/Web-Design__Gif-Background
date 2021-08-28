@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.hero {
+    min-width: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(https://media.giphy.com/media/8FoLIrNT2jK0evs6bG/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
+
+nav {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-top: 12%;
+}
+
+.hero button {
+    background: #393939;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.indicator span{
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.indicator {
+    margin-top: 100px;
+}
+
+.indicator span.active {
+    background: #fff;
+}
+
+.cta {
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 60px;
+}
